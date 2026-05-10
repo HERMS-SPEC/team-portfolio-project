@@ -1,0 +1,75 @@
+body {
+    background-color: #101820;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    color: yellow;
+}
+
+#profile-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 3px solid white;
+    width: 80%;
+    padding: 40px;
+    margin: 30px auto;
+    gap: 20px;
+    background-color: #2f6f73;
+    border-radius: 15px;
+}
+
+.left {
+    grid-column: 1;
+    grid-row: 1 / 4;
+    text-align: center;
+}
+
+.left img {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    border: 3px solid white;
+}
+
+.left h3 {
+    color: lightgreen;
+}
+
+.right {
+    grid-column: 2;
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#button a {
+    background-color: yellow;
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#button a:hover {
+    background-color: orange;
+}
+
+@media screen and (max-width: 800px) {
+    #profile-card {
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+
+    .left, .right {
+        grid-column: 1;
+    }
+}

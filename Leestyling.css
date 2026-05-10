@@ -1,0 +1,39 @@
+body{
+    background-image: url(https://www.shutterstock.com/image-vector/abstract-ai-circuit-board-background-600nw-2471339475.jpg);
+}
+
+#fc{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 3px solid;
+    width: 1500px;
+    padding: 50px 50px;
+    margin: 0px auto;
+    gap: 20px;
+    background-color: rgb(93, 172, 168);
+}
+
+.left{
+    grid-column: 1;
+    margin-left: 50px; 
+    grid-row: 1/4;
+}
+.left h3{
+    color:rgb(58, 255, 58);
+}
+
+.right{
+    grid-column: 2;
+}
+
+.title{
+    text-align: center;
+    color: yellow;
+}
+
+#button{
+    grid-column: 2;
+    margin-left: auto;
+    width: 120px;
+        
+}
