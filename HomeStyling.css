@@ -12,11 +12,11 @@ header {
 }
 
 .team-logo {
-    width: 95px;
+    width: 120px;
     height: auto;
     border-radius: 18px;
     border: 2px solid white;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 header h1 {
