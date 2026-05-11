@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <title>Project Profile</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="title"><h2>My Profile</h2></div>
+    </header>
+
+    <main>
+      <div id="fc">
+        <section class="left">
+          <h2 id="name">Hendry Bello</h2>
+
+          <h3 id="Role">Role: emocional support</h3>
+
+          <img
+            src="blob:https://web.whatsapp.com/1ba1635a-e59f-411f-9d0c-f99e51c904a4"
+          />
+        </section>
+
+        <section class="right">
+          <h1 class="1"><u>Strong Skills</u></h1>
+
+          <ul>
+            <li>drawing</li>
+            <li>costumer service</li>
+          </ul>
+        </section>
+
+        <section class="right">
+          <h1 class="2"><i><u>Skills to Improve</i></u></h1>
+          <ul>
+            <li>HTML Javascript</li>
+            <li>layouts</li>
+          </ul>
+        </section>
+
+        <section class="right">
+          <h1><u>Personal Statement</u></h1>
+          <p>
+            I may not always be present, but when I am. I act like I belong
+            <br />
+            while having no clue of what I'm doing most of the time.
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div id="button"><input type="submit" value="Back to Home" /></div>
+    </footer>
+  </body>
+</html>
