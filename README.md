@@ -22,13 +22,25 @@ The website includes:
 
 - index.html
 - HomeStyling.css
+
 - HermiloProfile.html
 - HermiloStyling.css
+- profile.jpg
+
 - LeeProfile.html
 - Leestyling.css
-- profile.jpg
 - lee.jpg
 
+- hendry.html
+- Hendry.CSS
+- Hendry.jpg
+
+- Fizarashid.html
+- fiza.jpg
+
+- logo.png
+
+- README.md
 ## Contributions
 
 Each team member contributed to the design, structure, and development of the project.
