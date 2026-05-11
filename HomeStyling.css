@@ -64,10 +64,10 @@ header h1 {
 }
 
 .team-logo {
-    width: 150px;
+    width: 90px;
     height: auto;
-    border-radius: 20px;
-    margin-bottom: 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
 }
 
 @media screen and (max-width: 800px) {
