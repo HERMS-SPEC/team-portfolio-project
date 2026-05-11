@@ -24,6 +24,8 @@ body{
 
 .right{
     grid-column: 2;
+    padding: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .title{
@@ -33,7 +35,8 @@ body{
 
 #button{
     grid-column: 2;
-    margin-left: auto;
+    margin: 20px auto;
     width: 120px;
-        
+    height: 20px;
+    align-items: center;
 }
