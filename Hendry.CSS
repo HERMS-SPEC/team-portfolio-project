@@ -1,0 +1,71 @@
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbDMwrgg8rIQ6sXHJShto62MX1Qv8NVj27xw&s);
+}
+
+#fc {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 3px solid;
+  width: 1500px;
+  padding: 50px 50px;
+  margin: 0px auto;
+  gap: 20px;
+  background-color: rgb(160, 119, 78);
+  border-width: 1px;
+}
+
+.left {
+  grid-column: 1;
+  margin-left: 50px;
+  grid-row: 1/4;
+}
+.left {
+  color: rgb(81, 58, 255);
+}
+
+.right {
+  grid-column: 2;
+}
+
+.title {
+  text-align: center;
+  color: yellow;
+}
+
+#button {
+  grid-column: 2;
+  margin-left: auto;
+  width: 120px;
+}
+
+h1 {
+  color: rgb(244, 208, 67);
+}
+
+ul {
+  color: rgb(78, 31, 2);
+}
+p {
+  color: rgb(78, 31, 2);
+}
+section {
+  border: 3px solid;
+  border-color: rgb(142, 72, 39);
+  background-color: rgb(176, 132, 67);
+}
+
+#name {
+  color: rgb(77, 16, 4);
+}
+
+#Role {
+  color: rgb(77, 16, 4);
+}
+
+main {
+  border-color: blue;
+}
+
+img {
+  width: 300px;
+}
