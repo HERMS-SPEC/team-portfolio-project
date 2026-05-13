@@ -99,16 +99,6 @@ h1{
         flex-direction:column;
         align-items:center;
     }
-
-    back-btn{
-    display:inline-block;
-    background:#1580c3;
-    color:white;
-    padding:18px 80px;
-    font-size:24px;
-    border-radius:8px;
-    transition:0.3s;
-}
 }
 </style>
 </head>
@@ -118,10 +108,10 @@ h1{
 <div class="container">
 
     <div class="avatar">
-       <img src="fiza.jpg" alt="Fiza Profile Picture">
+        <img src="https://i.imgur.com/8Qf5J3k.png" alt="Profile">
     </div>
 
-    <h1>Fiza Khan</h1>
+    <h1>Fiza Rashid </h1>
     <p class="title">Aspiring Cybersecurity Specialist</p>
 
     <div class="skills-wrapper">
@@ -139,22 +129,29 @@ h1{
         <div class="skills-card">
             <h2>Skills To Improve</h2>
             <ul>
-                <li>Javascript(Advanced)</li>
+                <li>Javascript (Advanced)</li>
                 <li>Ethical Hacking</li>
-                <li>Python programming</li>
+                <li>Python</li>
                 <li>Advanced Cybersecurity</li>
                 
-    
             </ul>
         </div>
 
     </div>
 
     <p class="bio">
-        I aim to become a cybersecurity specialist,protecting systems and learning ethical hacking to secure the digital systems.
+        I aim to become a cybersecurity specialist and protect digital systems.
     </p>
-    <a href="index.html" class="back-btn">Back</a>
+
+    <button class="btn" onclick="goHome()">Back to Home</button>
+
 </div>
+
+<script>
+function goHome(){
+    window.location.href = "index.html";
+}
+</script>
 
 </body>
 </html>
