@@ -99,6 +99,17 @@ h1{
         flex-direction:column;
         align-items:center;
     }
+
+    back-btn{
+    display:inline-block;
+    background:#1580c3;
+    color:white;
+    text-decoration:none;
+    padding:18px 80px;
+    font-size:24px;
+    border-radius:8px;
+    transition:0.3s;
+}
 }
 </style>
 </head>
@@ -143,16 +154,8 @@ h1{
     <p class="bio">
         I aim to become a cybersecurity specialist,protecting systems and learning ethical hacking to secure the digital systems.
     </p>
-
-    <button class="btn" onclick="goHome()">Back to Home</button>
-
+    <a href="index.html" class="back-btn">Back</a>
 </div>
-
-<script>
-function goHome(){
-    window.location.href = "index.html";
-}
-</script>
 
 </body>
 </html>
